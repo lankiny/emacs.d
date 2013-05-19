@@ -2,6 +2,7 @@
 ;; -nw 不使用图形界面 -no-window
 ;; -q  不加载配置文件
 ;; --debug-init
+;;http_proxy=http://127.0.0.1:8087 emacs
 
 ;;;; 添加Emacs搜索路径
 (add-to-list 'load-path "~/.emacs.d/_emacs")
@@ -32,6 +33,7 @@
 
 ;;收发邮件mu4e(Gmail)
 (load "init-mu.el")
+
 ;;ecb自动添加===============================================================
 (custom-set-variables
   ;; custom-set-variables was added by Custom.
